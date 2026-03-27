@@ -31,7 +31,8 @@ Miss too often… yeah, it gets frustrating real quick.
 - Right paddle: Up and Down arrow keys  
 - Left paddle: W and S keys  
 - Hit the ball using your paddle  
-- Don’t let the ball pass you  
+- Don’t let the ball pass you
+- First to 5 points wins!
 
 Stay focused — it speeds up fast.
 
