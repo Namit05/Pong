@@ -9,6 +9,7 @@ screen.setup(width=800, height=600)
 screen.bgcolor("black")
 screen.title("My Pong Game")
 screen.tracer(0)
+win_score=5
 r_paddle = Paddle((350, 0))
 l_paddle = Paddle((-350, 0))
 ball = Ball()
@@ -44,5 +45,7 @@ while game_is_on:
     if ball.xcor() < -380:
         ball.reset_position()
         scoreboard.r_point()
-
+    if win_score==scoreboard.l_score or win_score==scoreboard.r_score :
+        game_is_on=False
+        scoreboard.game_over()
 screen.exitonclick()
